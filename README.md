@@ -21,14 +21,9 @@ A command-line tool for securely managing your passwords.
     cd your-repository-name
     ```
 
-3. **Build the Application**:
+3. **Run the Application**:
     ```
-    go build -o password-manager
-    ```
-
-4. **Run the Application**:
-    ```
-    ./password-manager
+    go run app.go
     ```
 
 **Important**: If the master password is incorrect, you will not be able to decrypt the stored credentials. Ensure you remember your master password or securely store it.
